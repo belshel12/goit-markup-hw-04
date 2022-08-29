@@ -269,7 +269,7 @@ header .page-logo {
   gap: 30px;
 }
 
-.feature-card {
+.work-card {
   flex-basis: calc((100% - 60px) / 3);
 }
 
