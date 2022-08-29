@@ -230,7 +230,7 @@ header .page-logo {
 }
 
 .feature-card {
-  flex-basis: calc((100% - 90px) / 4);
+	  flex-basis: calc((100% - 90px) / 4);
 }
 
 .feature-icon-container {
@@ -239,6 +239,8 @@ header .page-logo {
   align-items: center;
   border-radius: 4px;
   background-color: var(--secondary-background-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 30px;
 }
 
