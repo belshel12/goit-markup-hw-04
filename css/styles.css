@@ -175,6 +175,8 @@ header .page-logo {
 
 /*================= HERO ================*/
 .hero-section {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--hero-bg-color);
@@ -232,15 +234,12 @@ header .page-logo {
 }
 
 .feature-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   background-color: var(--secondary-background-color);
-  padding: 25px 100px;
   margin-bottom: 30px;
-}
-
-.feature-list-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .feature-list .sub-title {
@@ -340,11 +339,6 @@ header .page-logo {
   fill: var(--primary-background-color);
 }
 
-.social-list-icon {
-  width: 20px;
-  height: 20px;
-}
-
 /*================CLIENTS==================*/
 
 .client-list {
@@ -352,7 +346,6 @@ header .page-logo {
   gap: 30px;
 }
 .client-items {
-  width: 170px;
   height: 92px;
   flex-basis: calc((100% - 150px) / 6);
 }
@@ -376,8 +369,6 @@ header .page-logo {
 
 .client-list-icon {
   fill: currentColor;
-  width: 106px;
-  height: 60px;
 }
 
 /*========================FOOTER====================*/
@@ -524,6 +515,7 @@ address .link:focus {
 
 .portfolio-card-container {
   border: 1px solid #eeeeee;
+  border-top: 0;
   padding: 20px 24px;
 }
 
